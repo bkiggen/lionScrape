@@ -1,0 +1,23 @@
+{
+  "name": "lionscrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . --platform=win32 --arch=x64 --out=out",
+    "run-script": "node script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.4",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "chromedriver": "^120.0.1",
+    "dotenv": "^16.3.1",
+    "selenium-webdriver": "^4.16.0"
+  }
+}
